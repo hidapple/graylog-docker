@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PLUGIN_PATH=$1
+GRAYLOG_VERSION=$2
+
+cp $PLUGIN_PATH $GRAYLOG_VERSION/graylog/plugin/
